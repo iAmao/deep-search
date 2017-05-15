@@ -1,0 +1,31 @@
+{
+  "name": "deep-search",
+  "version": "1.0.0",
+  "description": "A searching algorithm that gets the value of a given key of an object no matter how deeply it is nested",
+  "main": "DeepSearch.js",
+  "scripts": {
+    "test": "mocha javascript/tests/*.spec.js --compilers js:babel-register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andela-iamao/deep-search.git"
+  },
+  "author": "Inumidun Amao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andela-iamao/deep-search/issues"
+  },
+  "homepage": "https://github.com/andela-iamao/deep-search#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.1.3",
+    "eslint-plugin-import": "^2.2.0",
+    "mocha": "^3.4.1"
+  },
+  "dependencies": {
+    "babel-eslint": "^7.2.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.24.1"
+  }
+}
