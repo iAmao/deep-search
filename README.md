@@ -1,4 +1,7 @@
 # deep-search
+
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/andela-iamao/deep-search/badges/quality-score.png?b=development)](https://scrutinizer-ci.com/g/andela-iamao/deep-search/?branch=development)
+
 A searching algorithm that gets the value of a given key of an object no matter how deeply it is nested
 
 ## Supported language(s)
