@@ -4,7 +4,8 @@
   "description": "A searching algorithm that gets the value of a given key of an object no matter how deeply it is nested",
   "main": "DeepSearch.js",
   "scripts": {
-    "test": "mocha javascript/tests/*.spec.js --compilers js:babel-register"
+    "test": "nyc --reporter=html --reporter=text mocha javascript/tests/*.spec.js --compilers js:babel-register",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
@@ -18,10 +19,12 @@
   "homepage": "https://github.com/andela-iamao/deep-search#readme",
   "devDependencies": {
     "chai": "^3.5.0",
+    "coveralls": "^2.13.1",
     "eslint": "^3.19.0",
     "eslint-config-airbnb-base": "^11.1.3",
     "eslint-plugin-import": "^2.2.0",
-    "mocha": "^3.4.1"
+    "mocha": "^3.4.1",
+    "nyc": "^10.3.2"
   },
   "dependencies": {
     "babel-eslint": "^7.2.3",
