@@ -12,12 +12,23 @@ describe('DeepSearch', () => {
     deepSearch = new DeepSearch(nested);
   });
 
+  describe('constructor', () => {
+    it('should create the new instance with the nested object', () => {
+      expect(deepSearch.obj).to.eql(nested);
+    });
+
+    it('should define the instance with a default empty object', () => {
+      const testDeepSearch = new DeepSearch();
+      expect(testDeepSearch.obj).to.eql({});
+    });
+  });
+
   describe('searchKey', () => {
     it('should return the value of the input key', () => {
       expect(deepSearch.searchKey('dany')).to.eql('drogon');
     });
     it('should return a message if key is not found', () => {
-      expect(deepSearch.searchKey('null')).to.eql('Not Found');
+      expect(deepSearch.searchKey('e')).to.eql('Not Found');
     });
     it('should return an error for an invalid field', () => {
       expect(deepSearch.searchKey('')).to.eql('Input Error');
