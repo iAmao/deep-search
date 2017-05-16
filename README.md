@@ -1,6 +1,6 @@
 # deep-search
 
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/andela-iamao/deep-search/badges/quality-score.png?b=development)](https://scrutinizer-ci.com/g/andela-iamao/deep-search/?branch=development)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/andela-iamao/deep-search/badges/quality-score.png?b=development)](https://scrutinizer-ci.com/g/andela-iamao/deep-search/?branch=development) [![Coverage Status](https://coveralls.io/repos/github/andela-iamao/deep-search/badge.svg?branch=development)](https://coveralls.io/github/andela-iamao/deep-search?branch=development) [![Build Status](https://travis-ci.org/andela-iamao/deep-search.svg?branch=development)](https://travis-ci.org/andela-iamao/deep-search)
 
 A searching algorithm that gets the value of a given key of an object no matter how deeply it is nested
 
